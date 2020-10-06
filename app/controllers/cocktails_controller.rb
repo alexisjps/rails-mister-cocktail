@@ -1,7 +1,7 @@
 class CocktailsController < ApplicationController
   def index
     @cocktails = Cocktail.all
-    console
+    # console
   end
 
   def show
